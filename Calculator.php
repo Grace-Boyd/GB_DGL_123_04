@@ -18,7 +18,7 @@ $second_number = $_POST['second_number'];
 <br>
 <?php
 if(isset($_POST['submit'])) { 
-    $sum = $first + $second;
+    $sum = $first_number + $second_number;
     print "<h1>Result:<h1>" .$first_number ." + " .$second_number ." = " .$sum;
 }
 ?>
